@@ -1,4 +1,4 @@
-package com.tarea.samsungshop.modules.Auth.properties;
+package com.tarea.samsungshop.features.Auth.properties;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
