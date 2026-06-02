@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 import com.tarea.samsungshop.domain.model.DetalleCarrito;
 
 @Repository
-public interface DetalleCarritoRepository extends JpaRepository<DetalleCarrito, Long> {
+public interface DetalleCarritoRepository extends JpaRepository<DetalleCarrito, Integer> {
 }

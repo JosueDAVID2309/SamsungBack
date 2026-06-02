@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 import com.tarea.samsungshop.domain.model.Imagen;
 
 @Repository
-public interface ImagenRepository extends JpaRepository<Imagen, Long> {
+public interface ImagenRepository extends JpaRepository<Imagen, Integer> {
 }

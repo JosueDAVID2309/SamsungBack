@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 import com.tarea.samsungshop.domain.model.Color;
 
 @Repository
-public interface ColorRepository extends JpaRepository<Color, Long> {
+public interface ColorRepository extends JpaRepository<Color, Integer> {
 }

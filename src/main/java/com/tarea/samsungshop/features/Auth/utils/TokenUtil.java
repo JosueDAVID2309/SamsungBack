@@ -1,13 +1,9 @@
 package com.tarea.samsungshop.features.Auth.utils;
 import java.util.Date;
-
 import org.springframework.beans.factory.annotation.Autowired;
-
 import com.tarea.samsungshop.features.Auth.properties.JwtProperties;
-
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
-
 
 public class TokenUtil {
 

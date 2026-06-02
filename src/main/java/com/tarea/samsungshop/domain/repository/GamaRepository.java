@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 import com.tarea.samsungshop.domain.model.Gama;
 
 @Repository
-public interface GamaRepository extends JpaRepository<Gama, Long> {
+public interface GamaRepository extends JpaRepository<Gama, Integer> {
 }

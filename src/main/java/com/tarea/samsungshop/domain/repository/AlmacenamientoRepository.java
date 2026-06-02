@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 import com.tarea.samsungshop.domain.model.Almacenamiento;
 
 @Repository
-public interface AlmacenamientoRepository extends JpaRepository<Almacenamiento, Long> {
+public interface AlmacenamientoRepository extends JpaRepository<Almacenamiento, Integer> {
 }

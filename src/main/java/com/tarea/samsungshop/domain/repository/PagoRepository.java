@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 import com.tarea.samsungshop.domain.model.Pago;
 
 @Repository
-public interface PagoRepository extends JpaRepository<Pago, Long> {
+public interface PagoRepository extends JpaRepository<Pago, Integer> {
 }

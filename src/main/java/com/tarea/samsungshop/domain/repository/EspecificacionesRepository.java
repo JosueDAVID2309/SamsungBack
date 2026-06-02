@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 import com.tarea.samsungshop.domain.model.Especificaciones;
 
 @Repository
-public interface EspecificacionesRepository extends JpaRepository<Especificaciones, Long> {
+public interface EspecificacionesRepository extends JpaRepository<Especificaciones, Integer> {
 }

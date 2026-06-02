@@ -6,5 +6,5 @@ import org.springframework.stereotype.Repository;
 import com.tarea.samsungshop.domain.model.Serie;
 
 @Repository
-public interface SerieRepository extends JpaRepository<Serie, Long> {
+public interface SerieRepository extends JpaRepository<Serie, Integer> {
 }
